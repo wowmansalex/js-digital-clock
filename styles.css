@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  width: 250px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: #00FF00;
+  font-family: "Roboto Mono";
+}
+
+.period {
+  margin-left: 10px;
+}
